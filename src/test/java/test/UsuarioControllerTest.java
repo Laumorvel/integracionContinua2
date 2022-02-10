@@ -1,12 +1,15 @@
 package test;
 
 import org.junit.jupiter.api.BeforeEach;
+
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import com.example.demo.model.Usuario;
 
 import junit.framework.TestCase;
 
+@SpringBootTest
 public class UsuarioControllerTest extends TestCase {
 	private Usuario u;
 
