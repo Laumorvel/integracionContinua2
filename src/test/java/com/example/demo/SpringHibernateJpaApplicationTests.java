@@ -7,7 +7,7 @@ import com.example.demo.model.Usuario;
 
 import junit.framework.TestCase;
 
-@SpringBootTest
+@SpringBootTest(classes = SpringHibernateJpaApplicationTests.class)
 public class SpringHibernateJpaApplicationTests extends TestCase{
 	private Usuario u;
 	
