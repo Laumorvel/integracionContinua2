@@ -1,14 +1,15 @@
 package com.example.demo;
 
+import static org.junit.Assert.assertTrue;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.example.demo.model.Usuario;
 
-import junit.framework.TestCase;
 
 @SpringBootTest(classes = SpringHibernateJpaApplicationTests.class)
-public class SpringHibernateJpaApplicationTests extends TestCase{
+public class SpringHibernateJpaApplicationTests{
 	private Usuario u;
 	
 	
@@ -31,4 +32,3 @@ public class SpringHibernateJpaApplicationTests extends TestCase{
 	}
 	
 }
-
