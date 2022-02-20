@@ -6,6 +6,15 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.example.demo.model.Usuario;
+
+//Nuevo
+@SpringBootTest
+class JpaHibernateApplicationTests {
+
+	
+}
+
+//Comentado
 /*
 
 @SpringBootTest(classes = SpringHibernateJpaApplicationTests.class)
