@@ -40,7 +40,7 @@ public class SpringHibernateJpaApplication extends SpringBootServletInitializer{
 	@Bean
 	CommandLineRunner initDataProducto (ProductoRepository repositorioProducto) {
 
-		//String foto1 = "/img/pngwing.com.png";
+		String foto1 = "../img/pngwing.com.png";
 		String foto2 = "../img/pngwing.com(1).png";
 		String foto3 = "../img/pngwing.com(2).png";
 		String foto4 = "../img/pngwing.com(3).png";
@@ -49,7 +49,7 @@ public class SpringHibernateJpaApplication extends SpringBootServletInitializer{
 		
 		return(args)-> {
 			repositorioProducto.saveAll(
-					Arrays.asList(new Producto("Bombones rellenos de crema de fresa", 1.20, "/img/pngwing.com.png"),
+					Arrays.asList(new Producto("Bombones rellenos de crema de fresa", 1.20, foto1),
 			(new Producto("Barrita de crema con caramelo", 1.80, foto2)),
 			(new Producto("Toffee con caramelo salado", 1.50, foto3)),
 			(new Producto("Bombones rellenos de crema de avellanas", 1.20, foto4)),
