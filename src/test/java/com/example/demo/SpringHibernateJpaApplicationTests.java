@@ -15,8 +15,7 @@ class JpaHibernateApplicationTests {
 }
 */
 
-
-
+@ContextConfiguration(classes = SpringHibernateJpaApplication.class)
 @SpringBootTest(classes = SpringHibernateJpaApplicationTests.class)
 public class SpringHibernateJpaApplicationTests{
 	private Usuario u;
